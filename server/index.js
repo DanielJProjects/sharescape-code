@@ -99,7 +99,7 @@ app.post("/login", (req, res) => {
             res.send({ message: "Wrong email/password combination" });
           }
         } else {
-          res.send({ message: "Wrong email/password combination" });
+          res.send({ message: "This account does not exist" });
         }
       }
     }
